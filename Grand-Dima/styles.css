@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 70px 576px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    margin: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+button {
+    padding: 9px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #2ec4b6;
+    color: #fff;
+}
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+header {
+grid-column: 1 / 5;
+display: flex;
+margin: 30px;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+}
+.logo {
+    width: 5%;
+    height: 60px;
+}
+main {
+grid-column: 1 / 5;
+}
+.gb-img {
+    background-image: url(Img/grand-dima.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 576px;
+    width: 100vw;
+}
+h4, span, .home, h2, h3 {
+    color: #2ec4b6;
+}
+h4 {
+    font-weight: 500;
+    text-align: center;
+}
+h3 {
+    font-weight: 100;
+}
+.text {
+    font-weight: 100;
+    text-align: center;
+}
+.text {
+    font-weight: 100;
+    text-align: center;
+}
+.tex {
+    font-weight: 100;
+    margin-top: 19px;
+}
+.btn {
+    margin-top: 10px;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section {
+background: #fff;
+grid-column: 1 / 5;
+height: 70vh;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+article {
+    grid-column: 1 / 5;
+    height: 50vh;
+    margin-top: 60px;
+}
+label {
+    color: #000;
+}
+.check {
+    height: 20%;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 66%;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+}
+.input {
+    display: flex;
+}
+input {
+    height: 40px;
+    width: 95%;
+}
+#about {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 49px;
+}
+.box {
+    display: flex;
+    gap: 50px;
+    height: 200px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 29px;
+}
+.ico {
+    color: #000;
+    font-size: 50px;
+}
+.content {
+    padding: 9px 30px;
+    margin: -10px;
+}
+h2 {
+    font-weight: 200;
+}
+.expo {
+    width: 90%;
+    margin: 0 auto;
+    padding: 8px 20px;
+}
+.btn-expo {
+    background: #fff;
+    color: #000;
+    margin: -10px;
+    padding: 9px 20px;
+    font-size: 23px;
+}
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 30px;
+}
+img {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+.img2 {
+    grid-row: 1 / 3;
+}
+#room {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+}
+.room-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.room1 img {
+    border-radius: 10px;
+    height: 40%;
+}
+.svg {
+    width: 50%;
+}
+.boxs {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    font-weight: 400;
+    justify-content: space-between;
+}
+p {
+    font-weight: 100;
+}
+#btns {
+    margin: 20px;
+    margin-left: -4px;
+}
+#our-service {
+    max-width: 1200px;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: -190px;
+}
+.cent {
+    text-align: center;
+}
+.ic {
+    height: 89px;
+    text-align: center;
+    width: 45%;
+}
+.our-box {
+    margin-top: 100px;
+}
+.our-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    align-items: center;
+    gap: 30px;
+}
+footer {
+    margin-top: 850px;
+    background: #ccc;
+}
+.fot {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+}
